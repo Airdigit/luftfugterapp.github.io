@@ -34,7 +34,7 @@
                 <div class="slideshow"></div>
 				<div class="app-content">
 					<button class="app__button-menu"><i class="fa fa-navicon"></i></button>
-                    <p class="app__info">Sunday, 24<sup>th</sup> of October 2043</p>
+                    <p class="app_info" id="demo"></p>
 					<h2 class="app__title">12°<small>C</small></h2>
                     
 					<p class="app__info"><div class="slide" id="slide-1" data-weather="rain">
@@ -49,6 +49,9 @@
 	</div>
 	<!-- /container -->
 	<script src="js/index2.min.js"></script>
+    <script>
+document.getElementById("demo").innerHTML = Date();
+</script>
 </body>
 
 </html>

@@ -52,6 +52,13 @@
 	margin: 0;
 }
 
+.date__info {
+	color: #797979;
+	padding: 0 1em;
+	margin: 0;
+	margin-bottom: -99px;
+}
+
 .app__info--small {
 	font-size: 0.65em;
 	font-weight: bold;
